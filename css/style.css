@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(248, 151, 167);
+}
+
+ul li a{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.brand-logo{
+  color: black;
+}
+.sidenav-trigger {
+  color: rgb(248, 151, 167);
+}
+
+.sidenav li a{
+  color: rgb(248, 151, 167);
+}
+
+.row{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.autor1{
+  font-size: small;
+  text-align: right;
+
+}
+
+.autor2{
+  font-size: small;
+  text-align: right;
+
+}
+
+.autor3{
+  font-size: small;
+  text-align: right;
+
+}
+
+#logo-container{
+    font-family: 'Asul', sans-serif;
+
+    font-size: x-large;
+
+    
+  }
+
+#textA{
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Asul', sans-serif;
+}
+
+.parallax-container {
+  min-height: 480px;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+
+#trailerBoton{
+    background-color: rgba(248, 151, 167, 0.644);
+    color: white;
+
+}
+
+
+
+.page-footer{
+  background-color: rgb(248, 151, 167);
+}
+
+#opinion{
+  background-color: rgb(248, 151, 167);
+  color: white;
+  position: center;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  #logo-container{
+    font-size: medium;
+
+    
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+
+#logo-container{
+  font-size: x-small;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+  }
